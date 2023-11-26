@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center; 
+}
+
+.header{
+    width: 850px;
+    height: 400px;
+    background-color: rgb(33, 47, 61);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 370px;
+    height: 500px;
+
+
+}
+h1,p,h2{
+    width: 50%;
+
+
+
+}
+span{
+    display: flex;
+    padding: 20px;
+
+}
+.aa{
+    display: flex;
+    gap: 50px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+
+
